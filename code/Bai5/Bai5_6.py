@@ -4,4 +4,3 @@ unique_words = list(dict.fromkeys(words))
 vocab = {}
 for idx, word in enumerate(unique_words):
     vocab[word] = idx
-print(words)
